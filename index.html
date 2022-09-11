@@ -20,17 +20,21 @@
             <a-asset-item id="animated-asset" src="https://raw.githubusercontent.com/nicolocarpignoli/nicolocarpignoli.github.io/master/ar-playground/models/CesiumMan.gltf"></a-asset-item>
         </a-assets> -->
 
-      <a-assets>
-        <img id="my-image" src="/assets/demo6.jpg" />
-      </a-assets>
+      <!-- <a-assets>
+        <img id="my-image" src="" />
+      </a-assets> -->
 
-      <a-marker type="barcode" value="7">
-        <a-box position="0 0.5 0" color="yellow"></a-box>
+      <!-- DEMO PICTURE 5 -->
+      <a-marker id="animated-marker" type="barcode" value="5" smooth="true" smoothThreshold="10">
+        <a-entity scale="6 4.2855 1" rotation="90 0 180">
+          <a-image src="/assets/demo5.jpg"></a-image>
+        </a-entity>
       </a-marker>
 
-      <a-marker id="animated-marker" type="barcode" value="6" smooth="true" smoothThreshold="10">
-        <a-entity scale="5.6 3.7 1" rotation="90 0 180">
-          <a-image src="#my-image"></a-image>
+      <!-- DEMO PICTURE 6 -->
+      <a-marker type="barcode" value="6" smooth="true" smoothThreshold="10">
+        <a-entity scale="6 4 1" rotation="90 0 180">
+          <a-image src="/assets/demo6.jpg"></a-image>
         </a-entity>
       </a-marker>
 
